@@ -1,0 +1,198 @@
+.bodyKr {
+    margin :0px;
+}
+.sectionKr {
+    height: fit-content;
+    width: 100%;
+    margin:0;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.sectionVoce {
+    font-family:'Lucida Handwriting';
+    font-size:2vw;
+    height: auto;
+    background-image:url("voce/voce.webp");
+}
+.voceBody {
+    background-color:rgba(197, 194, 194, 0.667);
+    border:solid black 3px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 10px;
+    height:auto;
+    margin-left:4rem;
+    margin-right:5rem;
+    backdrop-filter: blur(8px);
+}
+.sectionMeso {
+    font-family:'Lucida Handwriting';
+    font-size:2vw;
+    height:fit-content;
+    background-image:url("meso/meso.webp");
+}
+.mesoBody {
+    background-color:rgba(197, 194, 194, 0.667);
+    border:solid black 3px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 10px;
+    height:fit-content;
+    margin-left:4rem;
+    margin-right:5rem;
+    backdrop-filter: blur(8px);
+}
+
+.sectionPovrce {
+    font-family:'Lucida Handwriting';
+    font-size:2vw;
+    height:fit-content;
+    background-image:url("povrce/povrce.webp");
+
+}
+.povrceBody {
+    background-color:rgba(197, 194, 194, 0.667);
+    border:solid black 3px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 10px;
+    height:fit-content;
+    margin-left:4rem;
+    margin-right:5rem;
+    backdrop-filter: blur(8px);
+}
+.sectionKontakt{
+    font-family:'Lucida Handwriting';
+    font-size:1vw;
+    height:fit-content;
+    background-image:url("krajolici/login.webp");
+}
+.kontaktDiv{
+    background-color:rgba(197, 194, 194, 0.667);
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 10px;
+    height:fit-content;
+    margin-left:4rem;
+    margin-right:5rem;
+}
+.divLogin, .divRegister{
+    margin-left:4rem;
+    margin-right:5rem;
+}
+
+.registerBody, .loginBody {
+    padding-top:0px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom: 15px;
+    font-family:'Lucida Handwriting';
+    font-size:1vw;
+    height: 100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:url("krajolici/login.webp");
+}
+.loginForm {
+    background-color:rgba(197, 194, 194, 0.667);
+    border:4px solid black;
+    width:fit-content;
+    height:fit-content;
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    font-family:'Lucida Handwriting';
+    font-size:1vw;
+    opacity: 0.9;
+    
+}
+.registerForm {
+    background-color:rgba(197, 194, 194, 0.667);
+    border:4px solid black;
+    width:fit-content;
+    height:fit-content;
+    padding-left:30px;
+    padding-right: 15px;
+    padding-top:10px;
+    padding-bottom: 15px;
+    font-family:'Lucida Handwriting';
+    font-size:1vw;
+    align-items:center;
+    justify-items:left;
+    display:grid;
+}
+::placeholder {
+    font-family: "Lucida Console";   
+}
+input[type=text]:focus, input[type=password]:focus ,input[type=email]:focus button[type=submit]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+input,button {
+    border:2px solid black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#loginButton {
+    border:2px solid black;
+    font-family: "Lucida Console";
+    opacity:0.7;
+    background-color: aquamarine;
+}
+#loginButton:hover {
+    opacity:1;
+}
+#registerButton {
+    border: 2px solid black;
+    font-family: "Lucida Console";
+    opacity: 0.7;
+    background-color: greenyellow;
+}
+#registerButton:hover {
+    opacity:1;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 5px;
+}
+.grid-container {
+    display: inline-block;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.gridSlike {
+    padding-top: 25px;
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    margin: 0;
+    min-width: 75%;
+    /*width: 850px;
+    height:600px;*/
+}
+
+.textIzbora {
+    float: right;
+    width:50%;
+    font-size: 5vw;
+
+}
+
+.textIznadIzbora {
+    font-size:7vw;
+    margin-left:2.4rem;
+}
+
+.izborSlika{
+
+    float:left;
+    width:50%;
+}

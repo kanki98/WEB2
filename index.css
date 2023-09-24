@@ -1,0 +1,94 @@
+.bodyKr{
+    margin:0px;
+}
+
+.sectionKr {
+    height: 100vh;
+    width: 100%;
+    margin:0;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.sectionMain {
+    overflow: hidden;
+    position: relative;
+    font-family: 'Lucida Handwriting';
+    height: 100vh;
+    width: 100vw;
+    font-size: 1vw;
+}
+
+.bgMain {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.sectionIzbor {
+    font-family:'Lucida Handwriting';
+    font-size:2vw;
+    height:fit-content;   
+    background-image:url("krajolici/zagorje2.webp");
+
+}
+
+.divMain {
+    background-color:rgba(197, 194, 194, 0.667);
+    padding:10px 10px 10px 10px;
+    border: 3px solid black;
+    height:75%;
+    width:90%;
+    margin-left:4rem;
+    margin-right:5rem;
+}
+
+.divIzbor {
+    background-color:rgba(197, 194, 194, 0.667);
+    border: 3px solid black;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 10px;
+    height:auto;
+    margin-left:4rem;
+    margin-right:5rem;
+    backdrop-filter: blur(8px);
+
+}
+.grid-containerKr {
+    display: inline-block;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+
+}
+.gridSlike {
+    padding-top: 25px;
+    max-width: 100%;
+    max-height: 90%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.textIzbora {
+    float: right;
+    width:50%;
+    font-size: 5vw;
+
+}
+
+.textIznadIzbora {
+    font-size:7vw;
+    margin-left:2.4rem;
+}
+
+.izborSlika{
+
+    float:left;
+    width:50%;
+}
